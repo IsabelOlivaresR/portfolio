@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from './Header';
 import Home from './Home';
+import AboutMe from './AboutMe';
+import { Route, Switch } from 'react-router-dom';
 
 class App extends React.Component {
   constructor(props) {
@@ -22,11 +24,22 @@ class App extends React.Component {
     console.log(this.state.isChecked);
     return (
       <div className='page'>
-        <Header
-          getClickFromMenu={this.getClickFromMenu}
-          isChecked={this.state.isChecked}
-        />
-        <Home />
+        <Switch>
+          <Route exact path='/'>
+            <Header
+              getClickFromMenu={this.getClickFromMenu}
+              isChecked={this.state.isChecked}
+            />
+            <Home />
+          </Route>
+          <Route exact path='/aboutme'>
+            <Header
+              getClickFromMenu={this.getClickFromMenu}
+              isChecked={this.state.isChecked}
+            />
+            <AboutMe />
+          </Route>
+        </Switch>
       </div>
     );
   }

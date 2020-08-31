@@ -3,6 +3,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
   @media all and (min-width: 768px) {
     flex-direction: column;
   }
@@ -100,4 +101,26 @@
 .provisional {
   width: 200px;
   align-self: center;
+}
+
+// About me
+.aboutMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 10px 0 10px;
+  &__title {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #09effa;
+  }
+  &__info {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    padding: 15px;
+  }
 }

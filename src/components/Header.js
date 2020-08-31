@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../images/LOGO-HEADER.png';
+import { Link } from 'react-router-dom';
 
 var mediaqueryList = window.matchMedia('(max-width: 767px)');
 
@@ -24,16 +25,16 @@ class Header extends React.Component {
                 : 'header__menu'
             }
           >
-            <li>
-              <a href='www.google.es' alt='home'>
+            <Link to={'/'}>
+              <li>
                 <i className='header__menu__icon fas fa-home'></i>
-              </a>
-            </li>
-            <li>
-              <a href='www.google.es' alt='Sobre mí'>
+              </li>
+            </Link>
+            <Link to={'/aboutme'}>
+              <li>
                 <i className='header__menu__icon fas fa-user'></i>
-              </a>
-            </li>
+              </li>
+            </Link>
             <li>
               <a href='www.google.es' alt='Proyectos'>
                 <i className='header__menu__icon fas fa-project-diagram'></i>
