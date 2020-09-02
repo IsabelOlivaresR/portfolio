@@ -1,6 +1,6 @@
 .page {
   background-color: #566573;
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
@@ -122,5 +122,72 @@
     font-weight: 400;
     text-align: justify;
     padding: 15px;
+  }
+}
+
+//projects
+.projects {
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  @media all and (min-width: 768px) {
+    flex-direction: row;
+  }
+  @media all and (min-width: 1200px) {
+    flex-direction: row;
+  }
+
+  &__1 {
+    width: 310px;
+    height: 300px;
+    background-image: url(../images/adawonders.png);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #42e9c0;
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  &__2 {
+    width: 310px;
+    height: 300px;
+    background-image: url(../images/esperanza.png);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #3a394f;
+    margin-right: 5px;
+  }
+  &__3 {
+    width: 310px;
+    height: 300px;
+    background-image: url(https://i.postimg.cc/g2rSjtGt/boton.png);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid yellow;
+    margin-right: 5px;
+  }
+  &__4 {
+    width: 310px;
+    height: 300px;
+    background-image: url(../images/refactor.PNG);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #ca6e4b;
+    margin-right: 5px;
+  }
+  &__5 {
+    width: 310px;
+    height: 300px;
+    background-image: url(../images/rick.png);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid white;
+    margin-right: 5px;
   }
 }

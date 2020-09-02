@@ -35,11 +35,11 @@ class Header extends React.Component {
                 <i className='header__menu__icon fas fa-user'></i>
               </li>
             </Link>
-            <li>
-              <a href='www.google.es' alt='Proyectos'>
+            <Link to={'/projects'}>
+              <li>
                 <i className='header__menu__icon fas fa-project-diagram'></i>
-              </a>
-            </li>
+              </li>
+            </Link>
             <li>
               <a href='www.google.es' alt='Skills'>
                 <i className='header__menu__icon fas fa-eye'></i>
