@@ -5,6 +5,7 @@ class AboutMe extends React.Component {
     return (
       <div className='aboutMe'>
         <h1 className='aboutMe__title'>Sobre mí</h1>
+        <div className='aboutMe__img' />
         <p className='aboutMe__info'>
           Desarrolladora creativa con muchas ganas de integrarse y crecer dentro
           del mundo tecnológico.
