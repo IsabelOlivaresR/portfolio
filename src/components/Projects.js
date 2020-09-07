@@ -4,6 +4,7 @@ class Projects extends React.Component {
   render() {
     return (
       <div className='projects'>
+        <h1 className='aboutMe__title'>Proyectos</h1>
         <a
           href='http://beta.adalab.es/Project-Promo-J-Modulo-1-Team-6/'
           alt='Adawonder web'

@@ -3,6 +3,7 @@ import Header from './Header';
 import Home from './Home';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
+import Skills from './Skills';
 import { Route, Switch } from 'react-router-dom';
 
 class App extends React.Component {
@@ -46,6 +47,13 @@ class App extends React.Component {
               isChecked={this.state.isChecked}
             />
             <Projects />
+          </Route>
+          <Route exact path='/skills'>
+            <Header
+              getClickFromMenu={this.getClickFromMenu}
+              isChecked={this.state.isChecked}
+            />
+            <Skills />
           </Route>
         </Switch>
       </div>

@@ -16,7 +16,9 @@ class Header extends React.Component {
   render() {
     return (
       <header className='header'>
-        <img className='header__logo' src={logo} alt='Isabel Olivares' />
+        <Link to={'/'}>
+          <img className='header__logo' src={logo} alt='Isabel Olivares' />
+        </Link>
         <nav>
           <ul
             className={
@@ -40,11 +42,11 @@ class Header extends React.Component {
                 <i className='header__menu__icon fas fa-project-diagram'></i>
               </li>
             </Link>
-            <li>
-              <a href='www.google.es' alt='Skills'>
+            <Link to={'/skills'}>
+              <li>
                 <i className='header__menu__icon fas fa-eye'></i>
-              </a>
-            </li>
+              </li>
+            </Link>
           </ul>
           <i className='fas fa-bars' onClick={this.getClickFromMenuChild}></i>
         </nav>
