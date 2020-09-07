@@ -52,12 +52,22 @@ class Header extends React.Component {
         </nav>
         <ul className='header__socialMedia'>
           <li>
-            <a href='mailto:isabel.olivares6@gmail.com' alt='Email'>
+            <a
+              href='mailto:isabel.olivares6@gmail.com'
+              alt='Email'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <i className='header__socialMedia__icon fas fa-envelope-square'></i>
             </a>
           </li>
           <li>
-            <a href='https://twitter.com/IsaOlivaresR?s=09' alt='twitter'>
+            <a
+              href='https://twitter.com/IsaOlivaresR?s=09'
+              alt='twitter'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <i className='header__socialMedia__icon fab fa-twitter-square'></i>
             </a>
           </li>
@@ -65,12 +75,19 @@ class Header extends React.Component {
             <a
               href='https://www.linkedin.com/in/isabelolivaresroldan/'
               alt='LinkedIn'
+              target='_blank'
+              rel='noopener noreferrer'
             >
               <i className='header__socialMedia__icon fab fa-linkedin'></i>
             </a>
           </li>
           <li>
-            <a href='https://github.com/IsabelOlivaresR' alt='GitHub'>
+            <a
+              href='https://github.com/IsabelOlivaresR'
+              alt='GitHub'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
               <i className='header__socialMedia__icon fab fa-github-square'></i>
             </a>
           </li>
