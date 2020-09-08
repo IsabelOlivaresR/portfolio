@@ -3,11 +3,13 @@
   display: flex;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
+
   @media all and (min-width: 768px) {
     flex-direction: column;
   }
   @media all and (min-width: 1200px) {
     flex-direction: row;
+    height: 100vh;
   }
 }
 .main {
@@ -210,9 +212,11 @@
   padding: 20px;
   @media all and (min-width: 768px) {
     flex-direction: row;
+    height: 100vh;
   }
   @media all and (min-width: 1200px) {
     flex-direction: row;
+    margin-top: 0;
   }
 
   &__1 {
@@ -274,9 +278,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+
   @media all and (min-width: 768px) {
     padding-top: 0;
+    height: 100vh;
   }
   &__container {
     display: flex;
@@ -319,14 +324,17 @@
   &__item {
     text-transform: capitalize;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     padding: 0.5px;
     &:hover {
       font-size: 25px;
     }
     @media all and (min-width: 1200px) {
-      font-size: 30px;
+      font-size: 28px;
+      &:hover {
+        font-size: 32px;
+      }
     }
   }
 }
