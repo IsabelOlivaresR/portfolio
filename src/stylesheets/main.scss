@@ -110,8 +110,8 @@
       flex-direction: column;
     }
     &__icon {
-      font-size: 30px;
-      padding: 20px;
+      font-size: 28px;
+      padding: 16px;
       color: #d0d3d4;
       &:hover,
       &:active {
@@ -129,7 +129,7 @@
       margin-bottom: 20px;
     }
     &__icon {
-      font-size: 30px;
+      font-size: 28px;
       padding: 5px;
       color: #d0d3d4;
       &:hover,
@@ -164,7 +164,6 @@
   justify-content: center;
   align-items: center;
   padding: 60px 10px 0 10px;
-  height: 100vh;
   @media all and (min-width: 768px) {
     padding: 0 20px 0 20px;
   }
@@ -179,13 +178,9 @@
   }
   &__img {
     width: 200px;
-    height: 200px;
     border-radius: 50%;
     border: 2px solid #c067b5;
     margin: 10px;
-    background-image: url(../images/aboutMe.jpg);
-    background-size: cover;
-    background-position: center;
   }
   &__socialMedia {
     display: flex;
@@ -273,7 +268,7 @@
 //Skills
 
 .skills {
-  padding-top: 50px;
+  padding-top: 60px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -345,14 +340,5 @@
   to {
     transform: scaleX(-1) rotate(15deg);
     -o-transform: scaleX(-1) rotate(15deg);
-  }
-}
-
-@keyframes writing {
-  from {
-    width: 100%;
-  }
-  to {
-    width: 0;
   }
 }

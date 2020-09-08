@@ -1,11 +1,12 @@
 import React from 'react';
+import profilePic from '../images/aboutMe.jpg';
 
 class AboutMe extends React.Component {
   render() {
     return (
       <div className='aboutMe'>
         <h1 className='aboutMe__title'>Sobre mí</h1>
-        <div className='aboutMe__img' />
+        <img className='aboutMe__img' src={profilePic} alt='Isabel Olivares' />
         <p className='aboutMe__info'>
           Desarrolladora creativa con muchas ganas de integrarse y crecer dentro
           del mundo tecnológico.
