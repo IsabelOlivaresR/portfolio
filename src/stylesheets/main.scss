@@ -176,6 +176,7 @@
     font-weight: 600;
     color: #09effa;
     width: 100%;
+    height: 45px;
     text-align: center;
   }
   &__img {
@@ -220,8 +221,8 @@
   }
 
   &__1 {
-    width: 310px;
-    height: 300px;
+    width: 280px;
+    height: 270px;
     background-image: url(../images/adawonders.png);
     background-size: cover;
     background-position: center;
@@ -232,8 +233,8 @@
     align-items: center;
   }
   &__2 {
-    width: 310px;
-    height: 300px;
+    width: 280px;
+    height: 270px;
     background-image: url(../images/esperanza.png);
     background-size: cover;
     background-position: center;
@@ -241,8 +242,8 @@
     margin-right: 5px;
   }
   &__3 {
-    width: 310px;
-    height: 300px;
+    width: 280px;
+    height: 270px;
     background-image: url(https://i.postimg.cc/g2rSjtGt/boton.png);
     background-size: cover;
     background-position: center;
@@ -250,8 +251,8 @@
     margin-right: 5px;
   }
   &__4 {
-    width: 310px;
-    height: 300px;
+    width: 280px;
+    height: 270px;
     background-image: url(../images/refactor.PNG);
     background-size: cover;
     background-position: center;
@@ -259,14 +260,112 @@
     margin-right: 5px;
   }
   &__5 {
-    width: 310px;
-    height: 300px;
+    width: 280px;
+    height: 270px;
     background-image: url(../images/rick.png);
     background-size: cover;
     background-position: center;
     border: 3px solid white;
     margin-right: 5px;
   }
+}
+.fa-long-arrow-alt-left {
+  font-size: 40px;
+  color: #d0d3d4;
+  &:hover {
+    color: #212f3d;
+  }
+  @media all and (min-width: 1200px) {
+    font-size: 60px;
+  }
+}
+.project {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  &__container {
+    width: 300px;
+    height: 350px;
+    border: 3px solid #d0d3d4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    @media all and (min-width: 768px) {
+      width: 400px;
+      height: 450px;
+    }
+    @media all and (min-width: 1200px) {
+      width: 650px;
+      height: 550px;
+    }
+  }
+  &__info {
+    margin-top: 50px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    color: #212f3d;
+    background-color: #d0d3d4;
+    @media all and (min-width: 768px) {
+      font-size: 30px;
+    }
+    @media all and (min-width: 1200px) {
+      font-size: 40px;
+      margin-top: 60px;
+    }
+  }
+  &__buttons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  &__icon {
+    font-size: 50px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 50%;
+    color: #212f3d;
+    border: 2px solid #212f3d;
+    background-color: #d0d3d4;
+    opacity: 0.8;
+    margin-bottom: 10px;
+    &:hover {
+      opacity: 1;
+    }
+    @media all and (min-width: 768px) {
+      font-size: 60px;
+    }
+  }
+}
+.project1 {
+  background-image: url(../images/adawonders1.PNG);
+  background-size: cover;
+  background-position: top;
+}
+.project2 {
+  background-image: url(../images/esperanza2.PNG);
+  background-size: cover;
+  background-position: top;
+}
+.project3 {
+  background-image: url(../images/luimelia3.PNG);
+  background-size: cover;
+  background-position: center;
+}
+.project4 {
+  background-image: url(../images/golden4.PNG);
+  background-size: cover;
+  background-position: center;
+}
+.project5 {
+  background-image: url(../images/rick5.PNG);
+  background-size: cover;
+  background-position: top;
 }
 
 //Skills

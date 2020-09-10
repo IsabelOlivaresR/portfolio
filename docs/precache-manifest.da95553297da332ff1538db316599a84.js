@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2ac6ca57a68a37c4df5dc97754929fa0",
+    "revision": "e6535c915ad381e4443c5ed69e79a7c8",
     "url": "./index.html"
   },
   {
-    "revision": "d0bc0a61abd48fda8f58",
-    "url": "./static/css/main.89816870.chunk.css"
+    "revision": "d3d5c39da00034f370e5",
+    "url": "./static/css/main.e9d0f283.chunk.css"
   },
   {
-    "revision": "79edde9fb73a3ba3b6da",
-    "url": "./static/js/2.c599042e.chunk.js"
+    "revision": "2858c40fcbeb0966fa9b",
+    "url": "./static/js/2.6f097818.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "./static/js/2.c599042e.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.6f097818.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d0bc0a61abd48fda8f58",
-    "url": "./static/js/main.6dabf3fa.chunk.js"
+    "revision": "d3d5c39da00034f370e5",
+    "url": "./static/js/main.b4a3cb9a.chunk.js"
   },
   {
     "revision": "6c236126e6bdf99e8f9b",
@@ -40,12 +40,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/adawonders.e3e5d843.png"
   },
   {
+    "revision": "e708537c10d172c6cd3886d50479777c",
+    "url": "./static/media/adawonders1.e708537c.PNG"
+  },
+  {
     "revision": "2fd870ef7660216ebda65cd431b1ec38",
     "url": "./static/media/esperanza.2fd870ef.png"
   },
   {
+    "revision": "74aaa109d9ce910a62d3ff8c9a658990",
+    "url": "./static/media/esperanza2.74aaa109.PNG"
+  },
+  {
+    "revision": "523dd70c7db283e056700ac0e18b702a",
+    "url": "./static/media/golden4.523dd70c.PNG"
+  },
+  {
     "revision": "12e5ee112b7d91b005d163a8b1d5367f",
     "url": "./static/media/laptop-opacity.12e5ee11.png"
+  },
+  {
+    "revision": "739b57ce91a9cbe41f2ec1894c176668",
+    "url": "./static/media/luimelia3.739b57ce.PNG"
   },
   {
     "revision": "2e9657526451c40a7ec16bad439e2301",
@@ -54,5 +70,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d45b8a94c025e99cc45af1301cbaa220",
     "url": "./static/media/rick.d45b8a94.png"
+  },
+  {
+    "revision": "c888523453e4a17822d76420aa99bda1",
+    "url": "./static/media/rick5.c8885234.PNG"
   }
 ]);
