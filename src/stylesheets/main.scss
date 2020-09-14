@@ -195,7 +195,7 @@
     text-align: justify;
     padding: 15px;
     @media all and (min-width: 768px) {
-      width: 65%;
+      width: 70%;
     }
   }
 }
@@ -218,6 +218,7 @@
   @media all and (min-width: 1200px) {
     flex-direction: row;
     margin-top: 0;
+    height: 100%;
   }
 
   &__1 {
