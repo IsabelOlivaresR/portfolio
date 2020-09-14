@@ -167,7 +167,7 @@
   align-items: center;
   padding: 60px 10px 0 10px;
   @media all and (min-width: 768px) {
-    padding: 0 20px 0 20px;
+    padding: 0 20px 20px 20px;
     height: 100vh;
   }
 
@@ -196,7 +196,7 @@
     text-align: justify;
     padding: 15px;
     @media all and (min-width: 768px) {
-      width: 70%;
+      width: 75%;
     }
   }
 }
@@ -217,11 +217,12 @@
   }
   @media all and (min-width: 1200px) {
     margin-top: 0;
+    padding-bottom: 30px;
   }
 
   &__1 {
-    width: 280px;
-    height: 270px;
+    width: 260px;
+    height: 250px;
     background-image: url(../images/adawonders.png);
     background-size: cover;
     background-position: center;
@@ -232,8 +233,8 @@
     align-items: center;
   }
   &__2 {
-    width: 280px;
-    height: 270px;
+    width: 260px;
+    height: 250px;
     background-image: url(../images/esperanza.png);
     background-size: cover;
     background-position: center;
@@ -241,8 +242,8 @@
     margin-right: 5px;
   }
   &__3 {
-    width: 280px;
-    height: 270px;
+    width: 260px;
+    height: 250px;
     background-image: url(https://i.postimg.cc/g2rSjtGt/boton.png);
     background-size: cover;
     background-position: center;
@@ -250,8 +251,8 @@
     margin-right: 5px;
   }
   &__4 {
-    width: 280px;
-    height: 270px;
+    width: 260px;
+    height: 250px;
     background-image: url(../images/refactor.PNG);
     background-size: cover;
     background-position: center;
@@ -259,8 +260,8 @@
     margin-right: 5px;
   }
   &__5 {
-    width: 280px;
-    height: 270px;
+    width: 260px;
+    height: 250px;
     background-image: url(../images/rick.png);
     background-size: cover;
     background-position: center;
