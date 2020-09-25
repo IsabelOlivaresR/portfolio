@@ -22,7 +22,7 @@ class Project4 extends React.Component {
               <i class='project__icon fas fa-globe-europe'></i>
             </a>
             <a
-              href='https://github.com/Adalab/project-promo-j-m-3-team-6'
+              href='https://github.com/IsabelOlivaresR/refactoring-golden-awesome-cards'
               alt='Awesome Golden Card repository'
               target='_blank'
               rel='noopener noreferrer'

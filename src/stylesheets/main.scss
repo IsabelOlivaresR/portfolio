@@ -87,7 +87,7 @@
   &__logo {
     width: 120px;
     &:hover {
-      animation: rotate 5s ease-in-out alternate infinite;
+      animation: rotate 2s ease-in-out;
     }
   }
   @media all and (min-width: 1200px) {
@@ -427,7 +427,7 @@
     text-align: center;
     padding: 0.5px;
     &:hover {
-      font-size: 25px;
+      scale: 1.5;
     }
     @media all and (min-width: 1200px) {
       font-size: 28px;
